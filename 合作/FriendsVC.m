@@ -9,14 +9,15 @@
 #import "FriendsVC.h"
 
 @interface FriendsVC ()
-
+@property(nonatomic,strong)UILabel *label;
 @end
 
 @implementation FriendsVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    _label=[[UILabel alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
+    _label.text=@"你好 ,金组长";
 }
 
 - (void)didReceiveMemoryWarning {
