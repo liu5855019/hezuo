@@ -133,7 +133,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CCF166C61CD98B2D00F66585 /* Build configuration list for PBXProject "合作" */;
+			buildConfigurationList = CCF166C61CD98B2D00F66585 /* Build configuration list for PBXProject "hezuo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -291,6 +291,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,13 +303,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CCF166C61CD98B2D00F66585 /* Build configuration list for PBXProject "合作" */ = {
+		CCF166C61CD98B2D00F66585 /* Build configuration list for PBXProject "hezuo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CCF166E01CD98B2D00F66585 /* Debug */,
@@ -324,6 +326,7 @@
 				CCF166E41CD98B2D00F66585 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
