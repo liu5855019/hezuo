@@ -10,6 +10,8 @@
 
 @interface PersonVC ()
 
+@property (nonatomic ,strong) UITableView *tableview;
+
 @end
 
 @implementation PersonVC
